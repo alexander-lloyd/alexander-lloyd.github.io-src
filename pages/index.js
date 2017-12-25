@@ -2,6 +2,11 @@ import React from 'react';
 
 import Feature from '../components/Feature';
 
+/**
+ *
+ * TODO: https://codepen.io/Deadlymuffin/pen/hGiqo/?editors=1100#0 Button gradients
+ */
+
 const styles = {
   gradient: {
     background: 'linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB)',
@@ -17,7 +22,7 @@ const projects = [
     link: '#',
     image: ''
   },
-  
+
 ];
 
 const contacts = [
@@ -26,9 +31,11 @@ const contacts = [
 ];
 
 export default () => (
-  <section className="hero is-info is-fullheight">
-    <Feature contacts={contacts} />
-  </section>
+  <div>
+    <section className="hero is-info is-fullheight">
+      <Feature contacts={contacts} />
+    </section>
+  </div>
 )
 //   <section className="section hero is-info is-fullheight" style={styles.gradient}>
 //     {/*<div className="hero-body">*/}
