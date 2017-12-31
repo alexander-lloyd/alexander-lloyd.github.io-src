@@ -11,19 +11,11 @@ import Project from '../components/Project';
 const projects = [
   {
     title: "Carrotron2",
-    desc : "Robot",
+    desc : "Library for simplify robotic development with Arduino. Developed at HackTheMidlands 2017 Edit",
     pictureUrl: "/static/projects/Carrotron.jpg",
     links: [
-      {name: 'GitHub', link: "https://github.com/alexander-lloyd/Carrotron"}
+      {name: 'GitHub', url: "https://github.com/alexander-lloyd/Carrotron2"}
     ]
-  },
-  {
-    title: "Magic Mirror",
-    desc : "Magic Mirror",
-    pictureUrl: "/static/projects/Carrotron.jpg",
-    links: [
-      {name: 'GitHub', url: "https://github.com/alexander-lloyd/MagicMirror"},
-    ],
   },
 ];
 
