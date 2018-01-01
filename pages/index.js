@@ -4,14 +4,13 @@ import Feature from '../components/Feature';
 import Project from '../components/Project';
 
 /**
- *
  * TODO: https://codepen.io/Deadlymuffin/pen/hGiqo/?editors=1100#0 Button gradients
  */
 
 const projects = [
   {
     title: "Carrotron2",
-    desc : "Library for simplify robotic development with Arduino. Developed at HackTheMidlands 2017 Edit",
+    desc : "Library for simplify robotic development with Arduino. Developed at HackTheMidlands 2017",
     pictureUrl: "/static/projects/Carrotron.jpg",
     links: [
       {name: 'GitHub', url: "https://github.com/alexander-lloyd/Carrotron2"}
